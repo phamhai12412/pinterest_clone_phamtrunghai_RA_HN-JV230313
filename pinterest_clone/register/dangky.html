@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinterest register</title>
+    <link rel="icon" href="/register/pinterestlogo.png" type="image/gif/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="dangky.css" />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>  
+  </head>
+  <body>
+    <div class="full_container">
+      
+      <div class="div1">
+        <i class="fa fa-pinterest"></i>
+        <p class="p1">Chào mừng bạn đến với</p>
+        <p class="p2">Pinterest</p>
+        <form id="dangki" action="" method="post">
+          <input
+            class="name"
+            type="text"
+            name="name"
+            placeholder="Tên đăng nhập"
+            required
+          /><br />
+          <input
+            class="matkhau"
+            type="password"
+            name="matkhau"
+            placeholder="Mật khẩu"
+            required
+          /><br />
+          <input
+            class="ngaysinh"
+            type="date"
+            name="ngaysinh"
+            placeholder="Ngày sinh"
+            required
+          /><br />
+
+          <button class="button2" name="registerbutton">register</button>
+        </form>
+        <p class="p3">OR</p>
+        <button class="button3" name="continuewithfacebook">
+          <img class="img1f" src="/signin_signup/zyro-image.png" alt="" />
+          <label class="label1">Continue with Facebook</label>
+        </button>
+
+        <button class="button4" name="continuewithgoogle">
+          <img class="img1" src="/register/google3.png" alt="" />
+          <label class="label2">Continue with Google</label>
+        </button>
+        <br /><br />
+
+        <label class="label3">By continuing, you agree to Pinterest's </label>
+        <a
+          class="a2"
+          href="https://policy.pinterest.com/en/terms-of-service"
+          target="blank"
+          ><b>Terms of</b> <br />
+          <b class="b1">Service,</b></a
+        >
+        <a
+          class="a2"
+          href="https://policy.pinterest.com/en/privacy-policy"
+          target="blank"
+          ><b>Privacy Policy.</b></a
+        ><br />
+        <hr class="hr1" />
+        <span>Bạn đã có tài khoản</span><a class="a3" href="http://127.0.0.1:5500/signin_signup/dang%20nhap.html">Đăng nhập</a>
+      </div>
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <script src="dangki.js"></script>
+  </body>
+</html>

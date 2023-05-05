@@ -1,0 +1,218 @@
+
+.full_container{
+  position: relative;
+  background-image: url("/signin_signup/pinterestbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  margin: auto;
+}
+.button1 {
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  color: #111111;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-top: 40px;
+  margin-left: 20px;
+  float: left;
+}
+.button1:hover {
+  cursor: pointer;
+  background-color: #e2e2e2;
+}
+.div1 {
+  background-color: white;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 120px;
+  left: 450px;
+  width: 30%;
+}
+.fa-pinterest {
+  font-size: 55px;
+  color: red;
+
+  margin-top: 25px;
+
+
+}
+.p1,.p2 {
+  font-size: 25px;
+  font-weight: bold;
+ 
+  margin-bottom: 8px;
+  margin-top: -5px;
+}
+
+.name,
+.matkhau,.ngaysinh {
+
+  width: 270px;
+  height: 45px;
+  font-size: 17px;
+  padding-left: 13px;
+  color: #646363;
+  border: 2px solid #d0d0d0;
+  border-radius: 20px;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+.a1 {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+
+  font-size: 12px;
+}
+.a1:hover{
+ color: #878787;
+
+
+
+}
+.button2 {
+  background-color: #d50c22;
+  width: 290px;
+ 
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 9px;
+  border: 1px solid d50c22;
+  border-radius: 50px;
+  opacity: 0.9;
+}
+.button2:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.p3 {
+
+  font-weight: bold;
+  color:#333333;
+}
+.button3 {
+
+  width: 290px;
+  background-color:#1877f2;
+  padding: 7px;
+  border: 1px solid #1877f2;
+  border-radius: 50px;
+}
+.button3:hover {
+  cursor: pointer;
+}
+
+.label1:hover {
+  cursor: pointer;
+  color: #d8d4d4;
+  
+}
+
+.button4 , .button3 {
+  width: 290px;
+
+  margin-top: 10px;
+  border: 1px solid #d0d0d0;
+  background-color: white;
+  padding: 8px;
+  border-radius: 50px;
+ 
+}
+.button4:hover {
+  cursor: pointer;
+}
+.img1 {
+  width: 50px;
+  float: left;
+}
+.img1f {
+  width: 26px;
+  float: left;
+  padding-right: 13px;
+  padding-left: 13px;
+  color: #d8d4d4;
+
+
+}
+.label2 ,.label1 {
+  float: left;
+  margin-top: 4px;
+  font-size: 17px;
+
+}
+.label2:hover {
+  cursor: pointer;
+  color: #d8d4d4;
+}
+.label3 {
+  color:#878787;
+
+  font-size: 14px;
+}
+
+.a2 {
+  text-decoration: none;
+  color:#767676;
+  font-size: 14px;
+}
+.a2:hover {
+  opacity: 0.8;
+}
+.hr1 {
+  width: 137px;
+  
+  opacity: 0.3;
+  margin-top: 10px;
+}
+.a3 {
+  text-decoration: none;
+ 
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+.Guest_account{
+  font-size: 17px;
+  text-decoration: none;
+  color: #111111;
+}
+.Guest_account:hover{
+  color: #d8d4d4;
+}
+@media screen and (max-width: 414px ) {
+  .div1{
+    top:0px;
+    left: 0px;
+    width: 100%;
+  }
+  .p1, .p2 {
+    font-size: 25px ;
+  }
+  .full_container{
+    height: auto;
+  }
+}
+@media screen  and (min-width: 415px ) and (max-width:820px){
+  .div1{
+    top:0px;
+    left: 0px;
+    width: 100%;
+  }
+  .p1, .p2 {
+    font-size: 25px ;
+  }
+  .full_container{
+    height: auto;
+  }
+}
